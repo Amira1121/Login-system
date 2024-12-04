@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="">
+   
+        
+          <main
+            class="vh-100 d-flex justify-content-center align-items-center flex-column">
+            <form class="p-3 shadow-lg text-center col-md-6 col-sm-12">
+              <h1 class="text-info fs-2 m-3 fw-bold">Smart Login System</h1>
+
+              <div class="mb-3">
+                <input type="text" class="form-control " id="name" placeholder="enter your name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control " id="email" placeholder="enter your email">
+              </div>
+
+              <div class="mb-3">
+                <input type="password" class="form-control" id="pass" placeholder="enter your Password">
+              </div>
+              
+              
+
+              <div
+          id="warningDiv"
+          class="text-start bg-danger p-3 rounded-2 mt-3 mb-0 text-white d-none">
+          <p class="text-center fs-5 m-0 fw-bold">Please Enter Valid Data</p>
+          Example: <br />
+          <ol>
+            <li>
+              Name: Uppercase letter followed by lower case letters or spaces
+              (ex: <b>Amira Thrwat</b>)
+            </li>
+            <li>Email: Valid email (ex: <b>example@gmail.com</b>)</li>
+            <li>
+              Password: Minimum eight characters, at least one upper case
+              English letter, one lower case English letter, one number and one
+              special character (ex: <b>df2at@3wdsG</b>)
+            </li>
+          </ol>
+        </div>
+
+        <div
+          id="successfulDiv"
+          class="text-start bg-success p-3 rounded-2 mt-3 mb-0 text-white d-none">
+          <p class="text-center fs-5 m-0 fw-bold">Successful Registration</p>
+        </div>
+
+              <div id="signupBtn" class="btn  my-3 w-100">
+                sign up
+              </div>
+              <p class="text-white">
+                You have an account?
+                <a class="text-dark-emphasis" href="./index.html"
+                  >Login</a
+                >
+              </p>
+            </form>
+
+
+
+
+
+    </main>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/storage.js"></script>
+    <script src="../js/signup.js"></script>
+    
+</body>
+</html>

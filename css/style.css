@@ -1,0 +1,18 @@
+body{
+    background-color: #1D2A32;
+}
+
+
+
+h1{
+    color: #18A2B8;
+}
+
+.btn{
+    border: 1px solid #18A2B8;
+    color: #18A2B8;
+}
+.btn:hover{
+    background-color: #18A2B8;
+    color: aliceblue;
+}
